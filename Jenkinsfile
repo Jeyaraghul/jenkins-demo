@@ -39,7 +39,7 @@ pipeline {
         script {
 
           openshift.withCluster() { 
-  openshift.withProject("<your_project_name") { 
+  openshift.withProject("microservices-pipeline") { 
     def deployment = openshift.selector("dc", "codelikethewind") 
     
     if(!deployment.exists()){ 
