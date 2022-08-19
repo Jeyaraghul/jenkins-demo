@@ -26,6 +26,7 @@ public class SimpleServlet extends HttpServlet {
 		out.println("<h1>" + "Trigger setup 2" + "</h1>");
 		out.println("<h1>" + "Trigger setup 3" + "</h1>");
 		out.println("<h1>" + "Trigger setup 4" + "</h1>");
+		out.println("<h1>" + "Trigger setup 5" + "</h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}
